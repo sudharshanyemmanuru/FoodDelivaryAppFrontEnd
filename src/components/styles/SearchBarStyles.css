@@ -1,0 +1,23 @@
+/* animations.css */
+@keyframes placeholderFadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes placeholderFadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .placeholder-animate {
+    animation: placeholderFadeIn 1s ease-in-out forwards, placeholderFadeOut 1s ease-in-out forwards 3s;
+  }
+  
